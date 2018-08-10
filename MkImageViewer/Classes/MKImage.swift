@@ -13,15 +13,15 @@ public class MKImage: NSObject {
     var imageUrl:URL?
     var downloadedImage:UIImage?
     
-    override init() {
+    override  init() {
         super.init()
     }
     
-     init(url:URL?) {
+     public init(url:URL?) {
         self.imageUrl = url
     }
     
-    init(image:UIImage?){
+    public init(image:UIImage?){
         self.downloadedImage = image
     }
 }

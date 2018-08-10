@@ -10,7 +10,7 @@ import UIKit
 
 class MKImageCellViewModel: NSObject {
 
-    var onImageDownloaded = { (image:UIImage?) -> () in}
+    var onImageDownloaded = { () -> () in}
     
     var image:MKImage{
         didSet{
@@ -20,8 +20,9 @@ class MKImageCellViewModel: NSObject {
     
     var downloadedImage:UIImage?{
         didSet{
-            onImageDownloaded(downloadedImage)
             self.image.downloadedImage = self.downloadedImage
+
+            onImageDownloaded()
         }
     }
     

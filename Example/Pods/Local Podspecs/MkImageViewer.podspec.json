@@ -1,6 +1,6 @@
 {
   "name": "MkImageViewer",
-  "version": "0.0.4",
+  "version": "0.0.6",
   "summary": "MKImageviewer is used to display image in horizontal scrollview",
   "description": "MKImageviewer is used to display image in horizontal scrollview. It helps to load image asyc and provide pagination feature by using its delegate methods.",
   "homepage": "https://github.com/mohit5189/MkImageViewer",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/mohit5189/MkImageViewer.git",
-    "tag": "0.0.4"
+    "tag": "0.0.6"
   },
   "platforms": {
     "ios": "8.0"

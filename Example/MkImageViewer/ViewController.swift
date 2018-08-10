@@ -8,8 +8,7 @@
 
 import UIKit
 import MkImageViewer
-
-class ViewController: UIViewController {
+class ViewController: UIViewController,MKImageViewControllerDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()

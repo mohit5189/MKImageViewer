@@ -35,8 +35,8 @@ class MKImageCell: UICollectionViewCell {
                 self.imageView.image = placeholderimage
             }
             
-            self.mkImageCellViewModel.onImageDownloaded = { image in
-                if let image = image {
+            self.mkImageCellViewModel.onImageDownloaded = {
+                if let image = self.mkImageCellViewModel.downloadedImage {
                     DispatchQueue.main.async {
                         let imageSize = image.size
                         

@@ -8,7 +8,7 @@
 
 import UIKit
 
-protocol MKImageViewControllerDelegate {
+public protocol MKImageViewControllerDelegate {
     func willDisplayImage(index:Int) -> Void
 }
 
@@ -23,13 +23,13 @@ public class MKImageViewController: UIViewController {
      var mkImageViewModel:MKImageViewModel!
     private var collectionView:UICollectionView!
     
-    var delegate:MKImageViewControllerDelegate?
+    public var delegate:MKImageViewControllerDelegate?
     
-    var images:[MKImage]?
+    public var images:[MKImage]?
     
-    var placeholderImage:UIImage?
+    public var placeholderImage:UIImage?
         
-    override func loadView() {
+    override public func loadView() {
         super.loadView()
         
         self.view.backgroundColor = UIColor.black
@@ -52,7 +52,7 @@ public class MKImageViewController: UIViewController {
         self.mkImageViewModel = MKImageViewModel()
     }
     
-    override func viewDidLoad() {
+    override public func viewDidLoad() {
         super.viewDidLoad()
         
         self.collectionView.register(MKImageCell.self, forCellWithReuseIdentifier: "cell")
@@ -72,7 +72,7 @@ public class MKImageViewController: UIViewController {
         }
     }
 
-    override func didReceiveMemoryWarning() {
+    override public func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
     

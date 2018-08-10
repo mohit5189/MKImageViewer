@@ -29,8 +29,8 @@
 
 /* Begin PBXFileReference section */
 		038050E77EA0D85D51221665 /* Pods-MkImageViewer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MkImageViewer_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-MkImageViewer_Tests/Pods-MkImageViewer_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		12A32016F1E9602F457127A7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		2262639EF400B0F0CAA6088B /* MkImageViewer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = MkImageViewer.podspec; path = ../MkImageViewer.podspec; sourceTree = "<group>"; };
+		12A32016F1E9602F457127A7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		2262639EF400B0F0CAA6088B /* MkImageViewer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = MkImageViewer.podspec; path = ../MkImageViewer.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		299983837D221C75CA27D5A6 /* Pods_MkImageViewer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MkImageViewer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4881FE19504489619A17605B /* Pods_MkImageViewer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MkImageViewer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E3E3E9D4FA8DF83F8906DC2 /* Pods-MkImageViewer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MkImageViewer_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MkImageViewer_Example/Pods-MkImageViewer_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -46,7 +46,7 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		82A47E8A1B5DA035BD1A2B52 /* Pods-MkImageViewer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MkImageViewer_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-MkImageViewer_Example/Pods-MkImageViewer_Example.release.xcconfig"; sourceTree = "<group>"; };
 		B19E6A6244C6DB27FFA139B0 /* Pods-MkImageViewer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MkImageViewer_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MkImageViewer_Tests/Pods-MkImageViewer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		C436F6E0390C86D0E11D9BD2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C436F6E0390C86D0E11D9BD2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */

@@ -1,0 +1,22 @@
+{
+  "name": "MkImageViewer",
+  "version": "0.1.0",
+  "summary": "A short description of MkImageViewer.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/mohit5189/MkImageViewer",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "mohit5189": "mohit.kumar@timesinternet.in"
+  },
+  "source": {
+    "git": "https://github.com/mohit5189/MkImageViewer.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "MkImageViewer/Classes/**/*"
+}

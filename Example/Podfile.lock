@@ -1,0 +1,16 @@
+PODS:
+  - MkImageViewer (0.1.0)
+
+DEPENDENCIES:
+  - MkImageViewer (from `../`)
+
+EXTERNAL SOURCES:
+  MkImageViewer:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MkImageViewer: 6cb12753d8be39974a077b3a3798ad2b8e8d083c
+
+PODFILE CHECKSUM: 855deb1416a21303c50e2ba0878ee3177be03388
+
+COCOAPODS: 1.5.3

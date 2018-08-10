@@ -1,0 +1,6 @@
+framework module MkImageViewer {
+  umbrella header "MkImageViewer-umbrella.h"
+
+  export *
+  module * { export * }
+}

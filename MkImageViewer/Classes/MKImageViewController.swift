@@ -18,7 +18,7 @@ extension MKImageViewControllerDelegate{
     }
 }
 
-class MKImageViewController: UIViewController {
+public class MKImageViewController: UIViewController {
 
      var mkImageViewModel:MKImageViewModel!
     private var collectionView:UICollectionView!

@@ -8,7 +8,7 @@
 
 import UIKit
 
-class MKImage: NSObject {
+public class MKImage: NSObject {
 
     var imageUrl:URL?
     var downloadedImage:UIImage?

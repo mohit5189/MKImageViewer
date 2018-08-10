@@ -65,7 +65,7 @@ public class MKImageViewController: UIViewController {
         
     }
     
-    func appendImages(images:[MKImage]?) -> Void {
+    public func appendImages(images:[MKImage]?) -> Void {
         if let images = images {
             self.images?.append(contentsOf: images)
             self.mkImageViewModel.images = self.images

@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'MkImageViewer_Example' do
+  pod 'MkImageViewer', :path => '../'
+
+  target 'MkImageViewer_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

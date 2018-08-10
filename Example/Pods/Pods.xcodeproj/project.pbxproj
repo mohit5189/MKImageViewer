@@ -7,16 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4986214E85FFEAE8588DF16C23872A05 /* MkImageViewer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4009958C5906AD62B723C3A91F5506B3 /* MkImageViewer-dummy.m */; };
+		3A9EFF111C6E51704C214D6A9DF4C881 /* MKImageViewController+UICollectionViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6038EA32A8871E903BD48A06BDC3516 /* MKImageViewController+UICollectionViewDataSource.swift */; };
+		54C784B2F0A00B58E023C4BF4241A403 /* MKImageViewController+UICollectionViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A37E55F51FC6608BDA4C500B35612B00 /* MKImageViewController+UICollectionViewDelegate.swift */; };
+		60241C109F176214EC86FFC6201D3F5F /* MKImageCell+UIScrollViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 107C7D11D7553E0DD6A4F016FD3ABCFC /* MKImageCell+UIScrollViewDelegate.swift */; };
 		64175959796A6261B84E7AB19C1A55E1 /* Pods-MkImageViewer_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 291753EFA1D9226D67221379813DF8B0 /* Pods-MkImageViewer_Example-dummy.m */; };
+		64E5ACD22C087F2FF14125A3E1A6CBE5 /* MKImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99439352BA3B94CCF0DBAA9478733220 /* MKImage.swift */; };
 		7C97F94DEF577116E2EC2DDD88B7A80A /* Pods-MkImageViewer_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DEB686B537CD8D701ADD54CF69ACADFD /* Pods-MkImageViewer_Tests-dummy.m */; };
-		B231FED2D0E014AC9081EDBB2FB4BDAF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
+		82F462E903F5E51FA9E5E449B606FB50 /* MKImageCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 548C2F019DD4E6F6CAB70761473F0A1D /* MKImageCellViewModel.swift */; };
+		A064E7B778E9AD7243B89AF36CB1EBDE /* MKImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16BB8B2181E976D857ADFC4974485D3F /* MKImageViewModel.swift */; };
+		B5ACD1645EA7A0386D0FDA32F0D1E5F1 /* MkImageViewer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0C0C48851E39F70CAF1F10730B247630 /* MkImageViewer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BA6087F8E184B3ED107A314835DB8494 /* MKImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E12D73DB32B4579F2CFB16420BA6691 /* MKImageViewController.swift */; };
 		D875A44462BCC2C1D90FC4731165B7E0 /* Pods-MkImageViewer_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B433680CDE4CF0230D5620439B23F0B /* Pods-MkImageViewer_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DA7F0DD4608B9A7195E9450B60F9454B /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 058649A9784286ED8854EC597C8C2095 /* ReplaceMe.swift */; };
 		E2E47787A902986A74197C120613A075 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		EF5158F78D6204D3A8E37C273785B419 /* Pods-MkImageViewer_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E6DE260B04E8CBF5DFFF0F501D9B2909 /* Pods-MkImageViewer_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F07F353E30E735A219622FFD8E1FE75E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
-		FEC04FA60254FDBCC3C3DABDBDE2D872 /* MkImageViewer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5036F936E6867748C75688FA6BDD9509 /* MkImageViewer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4870F419E672C0FA01CF74BC9FFDA3A /* MKImageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1D784EBA54DBBA7A7D5302D6D75E823 /* MKImageCell.swift */; };
+		F82D9F66B59207EAFE4D19072ED8CA05 /* MkImageViewer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C9E061C2A0E060747FAF5ADB504CE4AE /* MkImageViewer-dummy.m */; };
+		F976F7AC1B39AB5B0FF6F723E844E433 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -24,7 +31,7 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 78B9849F3F6B4DD00E9D21961E820FD7;
+			remoteGlobalIDString = DD17BDECC5F1EC9F97BCF5586963E1BC;
 			remoteInfo = MkImageViewer;
 		};
 		5F75567AB4CD2C2033BD6BB1D680F2E0 /* PBXContainerItemProxy */ = {
@@ -37,41 +44,48 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		058649A9784286ED8854EC597C8C2095 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = MkImageViewer/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
-		0EBCDA29465AA911A2996814070836C9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		0C0C48851E39F70CAF1F10730B247630 /* MkImageViewer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MkImageViewer-umbrella.h"; sourceTree = "<group>"; };
+		107C7D11D7553E0DD6A4F016FD3ABCFC /* MKImageCell+UIScrollViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MKImageCell+UIScrollViewDelegate.swift"; path = "MkImageViewer/Classes/MKImageCell+UIScrollViewDelegate.swift"; sourceTree = "<group>"; };
+		16BB8B2181E976D857ADFC4974485D3F /* MKImageViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKImageViewModel.swift; path = MkImageViewer/Classes/MKImageViewModel.swift; sourceTree = "<group>"; };
+		18FA364E48F7FBE5CA54955F282594A9 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		23B5F8DB7A5AA275C4A20DE880A7079C /* Pods-MkImageViewer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MkImageViewer_Example.release.xcconfig"; sourceTree = "<group>"; };
 		291753EFA1D9226D67221379813DF8B0 /* Pods-MkImageViewer_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MkImageViewer_Example-dummy.m"; sourceTree = "<group>"; };
 		325CDA2D22CEF8EBC815EB58DBBC925C /* MkImageViewer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = MkImageViewer.framework; path = MkImageViewer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		37956D35CBD3CA11C1EC7D9B897DBCB2 /* MkImageViewer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MkImageViewer.xcconfig; sourceTree = "<group>"; };
 		3E87E25C30F9173AD8D1688C3839D639 /* Pods-MkImageViewer_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MkImageViewer_Example.modulemap"; sourceTree = "<group>"; };
-		4009958C5906AD62B723C3A91F5506B3 /* MkImageViewer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MkImageViewer-dummy.m"; sourceTree = "<group>"; };
 		41E4F454210A76EABCF2AB2E14E34B4A /* Pods-MkImageViewer_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MkImageViewer_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		4EAF9DCB978B4EA00A77C0E52DF2B1F4 /* Pods-MkImageViewer_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MkImageViewer_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		5036F936E6867748C75688FA6BDD9509 /* MkImageViewer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MkImageViewer-umbrella.h"; sourceTree = "<group>"; };
+		548C2F019DD4E6F6CAB70761473F0A1D /* MKImageCellViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKImageCellViewModel.swift; path = MkImageViewer/Classes/MKImageCellViewModel.swift; sourceTree = "<group>"; };
 		57F7528BCF8C92C02FEC983AB6617609 /* Pods_MkImageViewer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MkImageViewer_Example.framework; path = "Pods-MkImageViewer_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		5B4E74553AB9C09F6DCEBFF4B356842C /* MkImageViewer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MkImageViewer-prefix.pch"; sourceTree = "<group>"; };
+		5E12D73DB32B4579F2CFB16420BA6691 /* MKImageViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKImageViewController.swift; path = MkImageViewer/Classes/MKImageViewController.swift; sourceTree = "<group>"; };
 		5F7F5C719F75049F7A541FBEC45BF3E1 /* Pods_MkImageViewer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MkImageViewer_Tests.framework; path = "Pods-MkImageViewer_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D17EBD5F40329F8A941EDD37B81F9E1 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		6E555A2C1DD4037E7D7588074809F6E5 /* MkImageViewer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MkImageViewer-prefix.pch"; sourceTree = "<group>"; };
+		70A12D055E15A36D30B88C7EC037C5C2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7916347E8442B9E2633BA86027D91CD7 /* Pods-MkImageViewer_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MkImageViewer_Example-resources.sh"; sourceTree = "<group>"; };
-		7D3A1C34E67C4E3EFF795734D69E09CF /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		8496FD5654A49C502E3EA9063A4AF9BF /* MkImageViewer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MkImageViewer.modulemap; sourceTree = "<group>"; };
 		8FCE37177C3461F1F18C069495ED08C0 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		99439352BA3B94CCF0DBAA9478733220 /* MKImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKImage.swift; path = MkImageViewer/Classes/MKImage.swift; sourceTree = "<group>"; };
 		9B433680CDE4CF0230D5620439B23F0B /* Pods-MkImageViewer_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MkImageViewer_Tests-umbrella.h"; sourceTree = "<group>"; };
 		A0498042F8C3BF9D02E746C617FAE25A /* Pods-MkImageViewer_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MkImageViewer_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		A37E55F51FC6608BDA4C500B35612B00 /* MKImageViewController+UICollectionViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MKImageViewController+UICollectionViewDelegate.swift"; path = "MkImageViewer/Classes/MKImageViewController+UICollectionViewDelegate.swift"; sourceTree = "<group>"; };
 		AF2D122088FB73EC34980CC3CD80C5D8 /* Pods-MkImageViewer_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MkImageViewer_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		C5418DF878A11C97AAB4B97E33BA401A /* Pods-MkImageViewer_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MkImageViewer_Example-frameworks.sh"; sourceTree = "<group>"; };
 		C7388AF094990B008EE8BFC9D2479D06 /* Pods-MkImageViewer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MkImageViewer_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		C73E429B56E4E68228A714F8E8EB96C5 /* Pods-MkImageViewer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MkImageViewer_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		C8AD5CE51B8A6831A6C8696CD805DE0E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C9E061C2A0E060747FAF5ADB504CE4AE /* MkImageViewer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MkImageViewer-dummy.m"; sourceTree = "<group>"; };
 		D22CC8A5F4962FCA7277054B39E60630 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D246127D1F9C213D80BAD1C86271F188 /* Pods-MkImageViewer_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MkImageViewer_Tests.modulemap"; sourceTree = "<group>"; };
+		D6038EA32A8871E903BD48A06BDC3516 /* MKImageViewController+UICollectionViewDataSource.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "MKImageViewController+UICollectionViewDataSource.swift"; path = "MkImageViewer/Classes/MKImageViewController+UICollectionViewDataSource.swift"; sourceTree = "<group>"; };
 		D7F8CADC6B6DB9D27C740679F67BD9BB /* Pods-MkImageViewer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MkImageViewer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		DC67CEC823D00F5B34845687A62968C2 /* MkImageViewer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MkImageViewer.xcconfig; sourceTree = "<group>"; };
 		DDD71D4A78AD07F91536BED1C0AFA77E /* Pods-MkImageViewer_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MkImageViewer_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		DE9F008FB400A2FD8D5452BC3AC9440C /* MkImageViewer.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = MkImageViewer.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		DE9FFDAF8E242A835F741B8DC61084E0 /* Pods-MkImageViewer_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MkImageViewer_Tests-resources.sh"; sourceTree = "<group>"; };
 		DEB686B537CD8D701ADD54CF69ACADFD /* Pods-MkImageViewer_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MkImageViewer_Tests-dummy.m"; sourceTree = "<group>"; };
 		E6DE260B04E8CBF5DFFF0F501D9B2909 /* Pods-MkImageViewer_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MkImageViewer_Example-umbrella.h"; sourceTree = "<group>"; };
-		EFCB4E996A69A727ADB1A366B285FE73 /* MkImageViewer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MkImageViewer.modulemap; sourceTree = "<group>"; };
+		F029331C59A64E718540B4C017533D75 /* MkImageViewer.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = MkImageViewer.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F1D784EBA54DBBA7A7D5302D6D75E823 /* MKImageCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MKImageCell.swift; path = MkImageViewer/Classes/MKImageCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,11 +97,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BB631AD994624FFDF1F06284B174E5FE /* Frameworks */ = {
+		3C7CFCE1D0535E743ACC8CC3319A756F /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B231FED2D0E014AC9081EDBB2FB4BDAF /* Foundation.framework in Frameworks */,
+				F976F7AC1B39AB5B0FF6F723E844E433 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -111,33 +125,12 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		116CCCD174EA779CAB6E79EABC4A5689 /* MkImageViewer */ = {
+		54BD4A00CFD874C0FC816A02DCD9D123 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				058649A9784286ED8854EC597C8C2095 /* ReplaceMe.swift */,
-				3AD5A78C51BE57551DE7D6F6C34A5684 /* Pod */,
-				D5B1D9E97A13B3FED012174EB7B0FEFF /* Support Files */,
-			);
-			name = MkImageViewer;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		2A87D603B192859334C09FFDA7AAF68D /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				116CCCD174EA779CAB6E79EABC4A5689 /* MkImageViewer */,
+				970B99D5A965CAA3EF014EE8FABC3FB6 /* MkImageViewer */,
 			);
 			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		3AD5A78C51BE57551DE7D6F6C34A5684 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				7D3A1C34E67C4E3EFF795734D69E09CF /* LICENSE */,
-				DE9F008FB400A2FD8D5452BC3AC9440C /* MkImageViewer.podspec */,
-				0EBCDA29465AA911A2996814070836C9 /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		5E0D919E635D23B70123790B8308F8EF /* iOS */ = {
@@ -166,15 +159,47 @@
 			path = "Target Support Files/Pods-MkImageViewer_Example";
 			sourceTree = "<group>";
 		};
+		6D4D491C697C2303DE9601C4132F8C67 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				70A12D055E15A36D30B88C7EC037C5C2 /* Info.plist */,
+				8496FD5654A49C502E3EA9063A4AF9BF /* MkImageViewer.modulemap */,
+				DC67CEC823D00F5B34845687A62968C2 /* MkImageViewer.xcconfig */,
+				C9E061C2A0E060747FAF5ADB504CE4AE /* MkImageViewer-dummy.m */,
+				6E555A2C1DD4037E7D7588074809F6E5 /* MkImageViewer-prefix.pch */,
+				0C0C48851E39F70CAF1F10730B247630 /* MkImageViewer-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/MkImageViewer";
+			sourceTree = "<group>";
+		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				2A87D603B192859334C09FFDA7AAF68D /* Development Pods */,
+				54BD4A00CFD874C0FC816A02DCD9D123 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
 				ABB1F518014E2F938A794B7750F72E70 /* Products */,
 				0CBBC7EA2F38804ED615925069A6A8B8 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		970B99D5A965CAA3EF014EE8FABC3FB6 /* MkImageViewer */ = {
+			isa = PBXGroup;
+			children = (
+				99439352BA3B94CCF0DBAA9478733220 /* MKImage.swift */,
+				F1D784EBA54DBBA7A7D5302D6D75E823 /* MKImageCell.swift */,
+				107C7D11D7553E0DD6A4F016FD3ABCFC /* MKImageCell+UIScrollViewDelegate.swift */,
+				548C2F019DD4E6F6CAB70761473F0A1D /* MKImageCellViewModel.swift */,
+				5E12D73DB32B4579F2CFB16420BA6691 /* MKImageViewController.swift */,
+				D6038EA32A8871E903BD48A06BDC3516 /* MKImageViewController+UICollectionViewDataSource.swift */,
+				A37E55F51FC6608BDA4C500B35612B00 /* MKImageViewController+UICollectionViewDelegate.swift */,
+				16BB8B2181E976D857ADFC4974485D3F /* MKImageViewModel.swift */,
+				D03CA820872F066E36AACF51861CDB20 /* Pod */,
+				6D4D491C697C2303DE9601C4132F8C67 /* Support Files */,
+			);
+			name = MkImageViewer;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		ABB1F518014E2F938A794B7750F72E70 /* Products */ = {
@@ -213,18 +238,14 @@
 			path = "Target Support Files/Pods-MkImageViewer_Tests";
 			sourceTree = "<group>";
 		};
-		D5B1D9E97A13B3FED012174EB7B0FEFF /* Support Files */ = {
+		D03CA820872F066E36AACF51861CDB20 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				C8AD5CE51B8A6831A6C8696CD805DE0E /* Info.plist */,
-				EFCB4E996A69A727ADB1A366B285FE73 /* MkImageViewer.modulemap */,
-				37956D35CBD3CA11C1EC7D9B897DBCB2 /* MkImageViewer.xcconfig */,
-				4009958C5906AD62B723C3A91F5506B3 /* MkImageViewer-dummy.m */,
-				5B4E74553AB9C09F6DCEBFF4B356842C /* MkImageViewer-prefix.pch */,
-				5036F936E6867748C75688FA6BDD9509 /* MkImageViewer-umbrella.h */,
+				18FA364E48F7FBE5CA54955F282594A9 /* LICENSE */,
+				F029331C59A64E718540B4C017533D75 /* MkImageViewer.podspec */,
+				6D17EBD5F40329F8A941EDD37B81F9E1 /* README.md */,
 			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/MkImageViewer";
+			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -238,11 +259,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7DAEFD27D84124DECE80F5DCDA6957AD /* Headers */ = {
+		4419CDE71CC6C22DBA7D64A8F99BDCDA /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FEC04FA60254FDBCC3C3DABDBDE2D872 /* MkImageViewer-umbrella.h in Headers */,
+				B5ACD1645EA7A0386D0FDA32F0D1E5F1 /* MkImageViewer-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -257,23 +278,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		78B9849F3F6B4DD00E9D21961E820FD7 /* MkImageViewer */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 17024AD680A8BD8E40A464BD835B3678 /* Build configuration list for PBXNativeTarget "MkImageViewer" */;
-			buildPhases = (
-				A22718A5A445777A3262D2D3F3519DDD /* Sources */,
-				BB631AD994624FFDF1F06284B174E5FE /* Frameworks */,
-				7DAEFD27D84124DECE80F5DCDA6957AD /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = MkImageViewer;
-			productName = MkImageViewer;
-			productReference = 325CDA2D22CEF8EBC815EB58DBBC925C /* MkImageViewer.framework */;
-			productType = "com.apple.product-type.framework";
-		};
 		C8241BE1700B537DBAC5FF39CC57A27E /* Pods-MkImageViewer_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B0B1B7835E2A89499316EFF5A91E03FB /* Build configuration list for PBXNativeTarget "Pods-MkImageViewer_Tests" */;
@@ -290,6 +294,23 @@
 			name = "Pods-MkImageViewer_Tests";
 			productName = "Pods-MkImageViewer_Tests";
 			productReference = 5F7F5C719F75049F7A541FBEC45BF3E1 /* Pods_MkImageViewer_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		DD17BDECC5F1EC9F97BCF5586963E1BC /* MkImageViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 459F6D46766D5F03BE24CDF23DAD4C0F /* Build configuration list for PBXNativeTarget "MkImageViewer" */;
+			buildPhases = (
+				07C26FC5D2FBFAE7DCC1E2C141A7EEF5 /* Sources */,
+				3C7CFCE1D0535E743ACC8CC3319A756F /* Frameworks */,
+				4419CDE71CC6C22DBA7D64A8F99BDCDA /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MkImageViewer;
+			productName = MkImageViewer;
+			productReference = 325CDA2D22CEF8EBC815EB58DBBC925C /* MkImageViewer.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		E99DD318ACEE4C724AC17AFDFB2004AA /* Pods-MkImageViewer_Example */ = {
@@ -331,7 +352,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				78B9849F3F6B4DD00E9D21961E820FD7 /* MkImageViewer */,
+				DD17BDECC5F1EC9F97BCF5586963E1BC /* MkImageViewer */,
 				E99DD318ACEE4C724AC17AFDFB2004AA /* Pods-MkImageViewer_Example */,
 				C8241BE1700B537DBAC5FF39CC57A27E /* Pods-MkImageViewer_Tests */,
 			);
@@ -339,20 +360,27 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		07C26FC5D2FBFAE7DCC1E2C141A7EEF5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64E5ACD22C087F2FF14125A3E1A6CBE5 /* MKImage.swift in Sources */,
+				60241C109F176214EC86FFC6201D3F5F /* MKImageCell+UIScrollViewDelegate.swift in Sources */,
+				F4870F419E672C0FA01CF74BC9FFDA3A /* MKImageCell.swift in Sources */,
+				82F462E903F5E51FA9E5E449B606FB50 /* MKImageCellViewModel.swift in Sources */,
+				3A9EFF111C6E51704C214D6A9DF4C881 /* MKImageViewController+UICollectionViewDataSource.swift in Sources */,
+				54C784B2F0A00B58E023C4BF4241A403 /* MKImageViewController+UICollectionViewDelegate.swift in Sources */,
+				BA6087F8E184B3ED107A314835DB8494 /* MKImageViewController.swift in Sources */,
+				F82D9F66B59207EAFE4D19072ED8CA05 /* MkImageViewer-dummy.m in Sources */,
+				A064E7B778E9AD7243B89AF36CB1EBDE /* MKImageViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		4CA769BF243BE3A0D7C53A2695A27982 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7C97F94DEF577116E2EC2DDD88B7A80A /* Pods-MkImageViewer_Tests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A22718A5A445777A3262D2D3F3519DDD /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4986214E85FFEAE8588DF16C23872A05 /* MkImageViewer-dummy.m in Sources */,
-				DA7F0DD4608B9A7195E9450B60F9454B /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,7 +398,7 @@
 		59C0029E8C5CE29D23CC69C4AE13BFD2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MkImageViewer;
-			target = 78B9849F3F6B4DD00E9D21961E820FD7 /* MkImageViewer */;
+			target = DD17BDECC5F1EC9F97BCF5586963E1BC /* MkImageViewer */;
 			targetProxy = 0AC2C00F7F3730F165007156C87FE48A /* PBXContainerItemProxy */;
 		};
 		743F77CDD32E9D2B72E0BD591BD28409 /* PBXTargetDependency */ = {
@@ -452,71 +480,6 @@
 			};
 			name = Release;
 		};
-		3BE7590962005AB763D57BD38FF3E34C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 37956D35CBD3CA11C1EC7D9B897DBCB2 /* MkImageViewer.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MkImageViewer/MkImageViewer-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MkImageViewer/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MkImageViewer/MkImageViewer.modulemap";
-				PRODUCT_MODULE_NAME = MkImageViewer;
-				PRODUCT_NAME = MkImageViewer;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		6F72733EE11C968959884AD7A28C3A83 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 37956D35CBD3CA11C1EC7D9B897DBCB2 /* MkImageViewer.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/MkImageViewer/MkImageViewer-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MkImageViewer/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MkImageViewer/MkImageViewer.modulemap";
-				PRODUCT_MODULE_NAME = MkImageViewer;
-				PRODUCT_NAME = MkImageViewer;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -577,6 +540,38 @@
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		95B7F871E2DA948161CE4E8C81694988 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC67CEC823D00F5B34845687A62968C2 /* MkImageViewer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MkImageViewer/MkImageViewer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MkImageViewer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MkImageViewer/MkImageViewer.modulemap";
+				PRODUCT_MODULE_NAME = MkImageViewer;
+				PRODUCT_NAME = MkImageViewer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
@@ -671,6 +666,39 @@
 			};
 			name = Release;
 		};
+		D79EA80DB6A7323563B198DE1DF9A468 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DC67CEC823D00F5B34845687A62968C2 /* MkImageViewer.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/MkImageViewer/MkImageViewer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MkImageViewer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MkImageViewer/MkImageViewer.modulemap";
+				PRODUCT_MODULE_NAME = MkImageViewer;
+				PRODUCT_NAME = MkImageViewer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		F55A0C4B075D6AA7B3B2B51170850E95 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C73E429B56E4E68228A714F8E8EB96C5 /* Pods-MkImageViewer_Tests.release.xcconfig */;
@@ -708,15 +736,6 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		17024AD680A8BD8E40A464BD835B3678 /* Build configuration list for PBXNativeTarget "MkImageViewer" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				6F72733EE11C968959884AD7A28C3A83 /* Debug */,
-				3BE7590962005AB763D57BD38FF3E34C /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		1728AF593787F1D17C4ADC481C4B7C75 /* Build configuration list for PBXNativeTarget "Pods-MkImageViewer_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -731,6 +750,15 @@
 			buildConfigurations = (
 				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
 				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		459F6D46766D5F03BE24CDF23DAD4C0F /* Build configuration list for PBXNativeTarget "MkImageViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95B7F871E2DA948161CE4E8C81694988 /* Debug */,
+				D79EA80DB6A7323563B198DE1DF9A468 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

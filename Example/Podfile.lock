@@ -1,5 +1,5 @@
 PODS:
-  - MkImageViewer (0.1.0)
+  - MkImageViewer (0.0.2)
 
 DEPENDENCIES:
   - MkImageViewer (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  MkImageViewer: 6cb12753d8be39974a077b3a3798ad2b8e8d083c
+  MkImageViewer: cb9184b906aa1bcee4c12cb151ca2ef950b22742
 
 PODFILE CHECKSUM: 855deb1416a21303c50e2ba0878ee3177be03388
 
